@@ -1,2 +1,9 @@
 .grid-item { width: 25%; }
 .grid-item--width2 { width: 50%; }
+
+th {
+  background-color: orange;
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
