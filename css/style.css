@@ -7,3 +7,15 @@ th {
   width: 30px;
   padding: 10px;
 }
+
+td {
+  background-color: pink;
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+
+.num {
+  font-size: 20px;
+  font-weight: bold;
+}
