@@ -18,5 +18,5 @@ td {
 .num {
   font-size: 20px;
   font-weight: bold;
-  width: 30px;
+  clear: both;
 }
