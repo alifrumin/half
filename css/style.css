@@ -13,6 +13,7 @@ td {
   height: 30px;
   width: 60px;
   padding: 10px;
+  border: white solid 5px;
 }
 
 .num {
@@ -23,4 +24,16 @@ td {
 
 table {
   border: white solid 5px;
+}
+
+.date {
+  font-size: 8px;
+}
+
+.tentative {
+  background-color: purple;
+}
+
+.complete {
+  background-color: turquoise;
 }
