@@ -20,3 +20,7 @@ td {
   font-weight: bold;
   clear: both;
 }
+
+table {
+  border: white solid 5px;
+}
