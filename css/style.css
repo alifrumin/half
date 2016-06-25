@@ -1,20 +1,16 @@
-.grid-item { width: 25%; }
-.grid-item--width2 { width: 50%; }
-
+* {
+  font-size: 12px;
+}
 th {
   background-color: orange;
-  height: 30px;
-  width: 60px;
-  padding: 10px;
 }
 
 td {
-  height: 30px;
-  width: 60px;
-  padding: 10px;
-  border: white solid 5px;
-}
 
+}
+h1 {
+  text-align: center;
+}
 .num {
   font-size: 20px;
   font-weight: bold;
@@ -22,7 +18,8 @@ td {
 }
 
 table {
-  border: white solid 5px;
+  width: 100%;
+  /*border: white solid 5px;*/
 }
 
 .date {
