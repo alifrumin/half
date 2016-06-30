@@ -13,15 +13,22 @@
 //   })
 // });
 
+
+
 $( document ).ready(function() {
-  i = 0;
-  $(".miles").each(function(){
-      var week = parseInt($(this).text());
-      if (week > 0) {
-        i = i + week;
-        console.log(i);
-      }
+  $("tr").each(function(){
+    var $row = $(this);
+    var i = 0;
+    $('.miles').each(function(){
+      console.log(this);
+        var week = parseInt($(this).text());
+        if (week > 0) {
+          i = i + week;
+          $(".total").html(i);
+        }
+    });
   });
+
   // var miles = parseInt($(".miles").text());
   // console.log(miles);
   // var i = 0;
